@@ -6,7 +6,7 @@ namespace SoupExt;
 
 using static UnityEngine.ColorUtility;
 
-public static class StringEx {
+public static class StringExt {
 
     public static string ToLines(this IEnumerable<string> self) => 
         string.Join(Environment.NewLine, self.Where(item => item != null));

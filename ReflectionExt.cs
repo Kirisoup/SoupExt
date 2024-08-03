@@ -2,7 +2,7 @@ using HarmonyLib;
 
 namespace SoupExt;
 
-public static class ReflectionEx {
+public static class ReflectionExt {
 
     public static T RefGetField<T>(this object obj, string name) {
         try {

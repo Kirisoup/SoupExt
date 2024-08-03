@@ -3,7 +3,7 @@ global using System.Collections.Generic;
 
 namespace SoupExt;
 
-public static class Ex {
+public static class Ext {
     public static bool IsWhen<TI, TO>(
         this TI self,
         Func<TI, bool> cond,
